@@ -1,21 +1,7 @@
-TypeScript tsconfig.json Demo
-============================
-
-`tsconfig.json`是typescript项目的说明文件，指定`tsc`所需要的各个参数。
+TypeScript Base Demo
+====================
 
 ```
 npm install
-npx tsc
+npx ts-node hello.ts
 ```
-
-You will see `hello.js` and `hello.js.map` generated.
-
-```
-node hello.js
-```
-
-It will print `Hello, TypeScript!`
-
-Resources
----------
-- tsconfig详解：<https://www.typescriptlang.org/docs/handbook/tsconfig-json.html>
